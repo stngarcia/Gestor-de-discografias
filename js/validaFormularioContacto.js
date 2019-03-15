@@ -4,7 +4,7 @@
 $(document).ready(function () {
     $("#datosCorrectos").hide();
     limpiarCampos();
-    var miUrl = "../json/codigoArea.json";
+    var miUrl = "codigoArea.json";
     cargarDatos(miUrl);
 });
 
